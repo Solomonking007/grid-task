@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 50%;
+    margin: auto;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    box-sizing: border-box;
+}
+    
+
+.car-type-container {
+    max-width: 1440px;
+    min-width: 375px;
+    margin: auto;
+
+}
+
+.car-type {
+    display: flex;    
+    height: 100%;
+    width: 100%;
+    
+ 
+    
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    padding: 10px;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 10px;
+}
+
+h1 {
+    padding-bottom: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    
+}
+
+.sedan {
+    padding: 30px;
+    line-height: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.suv {
+    padding: 30px;
+    line-height: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-collapse: collapse;
+}
+
+.luxury {
+    padding: 30px;
+    line-height: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+button {
+    width: 140px;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+}
+
+img {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+a:hover {
+    background-color: hsl(179 100% 13%);
+    color: hsla(0 0% 100% 0.75%);
+}
+
+@media screen and (min-width: 375px)  {
+   body {
+    width: 50px;
+    display: grid;
+    flex-direction: column;
+   }
+    
+}
+
+@media screen and (max-height: 1440px) {
+    body {
+        width: 100%;
+    }
+    
+}
